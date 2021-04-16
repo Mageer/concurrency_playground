@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 yapf = "*"
 pytest = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [dev-packages]
 packagename = {editable = true, path = "."}
